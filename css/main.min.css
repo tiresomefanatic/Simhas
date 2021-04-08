@@ -4357,6 +4357,7 @@ button {
 }
 .header-mobile {
   position: relative;
+  background-color:white;
 }
 .header-mobile .header-mobile__bar {
   padding: 15px 0;
