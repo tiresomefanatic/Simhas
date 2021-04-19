@@ -5094,8 +5094,8 @@ button {
 .footer {
   position: relative;
   padding: 75px 0;
-  padding-bottom: 95px;
-  background-image: url("../images/bg-footer-01.jpg");
+  /* padding-bottom: 95px; */
+  background-image: url("/assets/footerBG.jpg");
 }
 
 .footer.bg-parallax {
