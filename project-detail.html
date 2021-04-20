@@ -82,90 +82,87 @@
     <div class="page-wrapper">
         <!-- HEADER-->
         <header id="header">
-            <div class="header header-2 header-page-pilling d-none d-lg-block">
+            <div class="header header-1 d-none d-lg-block js-header-1">
                 <div class="header__bar">
                     <div class="wrap wrap--w1790">
                         <div class="container-fluid">
                             <div class="header__content">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="assets/Simhas-logo-black.png" alt="Simha Associates" />
+                                        <img src="assets/Simhablk.svg" alt="simhas" />
                                     </a>
                                 </div>
                                 <div class="header__content-right">
-                                    <button class="hamburger hamburger--slider float-right hamburger--sm js-menusb-btn" type="button">
-                                        <span class="hamburger-box">
-                                            <span class="hamburger-inner"></span>
-                                        </span>
-                                    </button>
+                                    <nav class="header-nav-menu">
+                                        <ul class="menu nav-menu">
+                                            <li class="menu-item">
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            
+                                            <li class="menu-item menu-item-has-children">
+                                                <a href="proj.html">Work</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item">
+                                                        <a href="commercial.html">Commercial</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="residential.html">Residential</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="interiors.html">Interiors</a>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="about-us.html">About</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="contact.html">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <!-- <div class="header-social">
+                                        <ul class="list-social">
+                                            <li class="list-social__item">
+                                                <a class="ic-fb" href="#">
+                                                    <i class="zmdi zmdi-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-social__item">
+                                                <a class="ic-insta" href="#">
+                                                    <i class="zmdi zmdi-instagram"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-social__item">
+                                                <a class="ic-twi" href="#">
+                                                    <i class="zmdi zmdi-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-social__item">
+                                                <a class="ic-pinterest" href="#">
+                                                    <i class="zmdi zmdi-pinterest"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-social__item">
+                                                <a class="ic-google" href="#">
+                                                    <i class="zmdi zmdi-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <aside class="menu-sidebar js-menusb" id="sidebar">
-                <a class="btn-close" href="#" id="js-close-btn">
-                    <span class="ti-close"></span>
-                </a>
-                <div class="menu-sidebar__content">
-                    <nav class="menu-sidebar-nav-menu">
-                        <ul class="menu nav-menu" id="nav-menu-sidebar">
-                            <li class="menu-item">
-                                <a href="index.html" data-toggle="collapse" data-target="#sub1" aria-expanded="true" aria-controls="sub1">Home</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="about-us.html">about</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="work.html" data-toggle="collapse" data-target="#sub2" aria-expanded="true" aria-controls="sub2">Work</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="contact.html">contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <ul class="list-social list-social--big">
-                        <li class="list-social__item">
-                            <a class="ic-fb" href="#">
-                                <i class="zmdi zmdi-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="list-social__item">
-                            <a class="ic-insta" href="#">
-                                <i class="zmdi zmdi-instagram"></i>
-                            </a>
-                        </li>
-                        <li class="list-social__item">
-                            <a class="ic-twi" href="#">
-                                <i class="zmdi zmdi-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="list-social__item">
-                            <a class="ic-pinterest" href="#">
-                                <i class="zmdi zmdi-pinterest"></i>
-                            </a>
-                        </li>
-                        <li class="list-social__item">
-                            <a class="ic-google" href="#">
-                                <i class="zmdi zmdi-google"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="menu-sidebar__footer">
-                    <div class="copyright">
-                        <p>© 2021 Simha Associates. By The Company Design</p>
-                    </div>
-                </div>
-            </aside>
-            <div id="menu-sidebar-overlay"></div>
             <div class="header-mobile d-block d-lg-none">
                 <div class="header-mobile__bar">
                     <div class="container-fluid">
                         <div class="header-mobile__bar-inner">
                             <a class="logo" href="index.html">
-                                <img src="assets/Simhas-logo-black.png" alt="Simha Associates" />
+                                <img src="assets/Simhablk.svg" alt="Simhas" />
                             </a>
                             <button class="hamburger hamburger--slider float-right" type="button">
                                 <span class="hamburger-box">
@@ -178,19 +175,29 @@
                 <nav class="header-nav-menu-mobile">
                     <div class="container-fluid">
                         <ul class="menu nav-menu menu-mobile">
+                            <li class="menu-item">
+                                <a href="index.html">Home</a>
+                            </li>
+                        
                             <li class="menu-item menu-item-has-children">
-                                <a href="home-main.html">Home</a>
-                                
+                                <a href="proj.html">Work</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="commercial.html">Commercial</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="residential.html">Residential</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="interiors.html">Interiors</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="menu-item">
-                                <a href="about-us.html">About us</a>
+                                <a href="about-us.html">About</a>
                             </li>
-                            <li class="menu-item menu-item-has-children">
-                                <a href="project-grid-full.html">Work</a>
-                               
-                            </li>
-                            <li class="menu-item menu-item-has-children">
-                                <a href="my-account.html">Contact</a>
+                            <li class="menu-item">
+                                <a href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -204,7 +211,7 @@
             <div class="container">
                 <article class="project-style-4">
                     <header class="entry-header">
-                        <h2 class="entry-title">Lunisolar homestay</h2>
+                        <h2 class="entry-title">Project Name</h2>
                     </header>
                     <div class="masonry-row js-isotope-wrapper">
                         <div class="row isotope-content">
@@ -242,11 +249,11 @@
                                     <div class="col-sm-6">
                                         <div class="entry-meta__item">
                                             <h4 class="key">client:</h4>
-                                            <span class="value">Domingo Norton</span>
+                                            <span class="value">Client Name</span>
                                         </div>
                                         <div class="entry-meta__item">
                                             <h4 class="key">location:</h4>
-                                            <span class="value">Perth , Australia</span>
+                                            <span class="value">Hyderabad,Telangana</span>
                                         </div>
                                     </div>
                                 </div>
@@ -262,7 +269,7 @@
                                     sit
                                 </p>
                             </div>
-                            <div class="entry-share">
+                            <!-- <div class="entry-share">
                                 <span class="key">Share :</span>
                                 <ul class="list-social list-social--md">
                                     <li class="list-social__item">
@@ -291,7 +298,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </article>
@@ -321,89 +328,7 @@
         <!-- END MAIN-->
 
         <!-- FOOTER-->
-        <footer class="footer bg-parallax">
-            <div class="bg-overlay bg-overlay--p85"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-col">
-                            <div class="widget m-b-25">
-                                <a href="#">
-                                    <img src="assets/Simhas-logo.png" alt="Simhas" />
-                                </a>
-                            </div>
-                            <div class="widget widget-address">
-                                <ul>
-                                    <li>Address : 8-2-460/2/1, Road No 4 <br>Simha's Tower, Banjara Hills<br> Hyderabad 500034</li>
-                                    <li>Phone number : (+91) 99850-90900</li>
-                                    <li>Email : hello@simhas.com</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6">
-                        <div class="footer-col p-l-70 p-md-l-0">
-                            <div class="widget widget_pages">
-                                <h4 class="widget-title">Link</h4>
-                                <ul>
-                                    <li>
-                                        <a href="#">About us</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-col p-l-70 p-md-l-0">
-                            <h4 class="widget-title">Social</h4>
-                            <div class="widget widget_socials">
-                                <ul class="list-social list-social-2">
-                                    <li class="list-social__item">
-                                        <a class="ic-fb" href="#">
-                                            <i class="zmdi zmdi-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-insta" href="#">
-                                            <i class="zmdi zmdi-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-twi" href="#">
-                                            <i class="zmdi zmdi-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-pinterest" href="#">
-                                            <i class="zmdi zmdi-pinterest"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-social__item">
-                                        <a class="ic-google" href="#">
-                                            <i class="zmdi zmdi-google"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-col">
-                            <div class="widget widget_text">
-                                <h4 class="widget-title">copyright</h4>
-                                <p>© 2021 Simhas. By The Company Design</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+       
         <!-- END FOOTER-->
     </div>
 

@@ -4357,8 +4357,17 @@ button {
 }
 .header-mobile {
   position: relative;
-  background-color:white;
+  background-color: white;
+  /* margin-top: 20; */
 }
+
+.logo-mob {
+  animation: 
+    fade-in 5s ease infinite alternate, 
+    bounce 5s linear infinite alternate;
+}
+
+
 .header-mobile .header-mobile__bar {
   padding: 15px 0;
 }
