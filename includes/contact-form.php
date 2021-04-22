@@ -1,7 +1,7 @@
 <?php
 
 $mail_host = "trieuau@gmail.com";
-$mail_title = "[TATEE] Contact Form Message";
+$mail_title = "[Simhas] Contact Form Message";
 
 define("MAIL_HOST", $mail_host);
 define("MAIL_TITLE", $mail_title);
