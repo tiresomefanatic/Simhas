@@ -1215,8 +1215,17 @@ a:hover {
   transform: rotate(180deg);
 }
 .media-project-1 {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
+
+@media(min-width: 800px){
+  .cat-title{
+    display: none;
+    color: #000;
+  }
+}
+
+
 .media-project-hover {
   width: -webkit-calc(100% / 5);
   width: -moz-calc(100% / 5);
@@ -5192,6 +5201,11 @@ button {
 .project-style-4 {
   padding-top: 85px;
 }
+.value{
+font-weight: 400;
+color: white;
+}
+
 .project-style-1 .entry-title,
 .project-style-4 .entry-title {
   font-size: 60px;
@@ -5201,7 +5215,7 @@ button {
 }
 .project-style-1 .entry-meta,
 .project-style-4 .entry-meta {
-  background: #f8f8f8;
+  background: black;
   padding: 60px 70px 25px;
   margin-bottom: 60px;
 }
@@ -5211,7 +5225,7 @@ button {
 }
 .project-style-1 .entry-meta__item .key,
 .project-style-4 .entry-meta__item .key {
-  color: #002;
+  color: white;
   font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 5px;
