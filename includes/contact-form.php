@@ -1,6 +1,6 @@
 <?php
 
-$mail_host = "trieuau@gmail.com";
+$mail_host = "office@simhas.com";
 $mail_title = "[Simhas] Contact Form Message";
 
 define("MAIL_HOST", $mail_host);
@@ -19,6 +19,7 @@ if (isset($_POST['name'])) {
 
 
 if (isset($_POST['email'])) {
+    $email_to = "email@example.com"; // this is your Email address
     $email_from = $_POST['email'];
     $mail_body .= "<h3>Email: " . $email_from . "</h3>";
 }
