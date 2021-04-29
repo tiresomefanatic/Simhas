@@ -19,7 +19,7 @@ if (isset($_POST['name'])) {
 
 
 if (isset($_POST['email'])) {
-    $email_to = "email@example.com"; // this is your Email address
+    
     $email_from = $_POST['email'];
     $mail_body .= "<h3>Email: " . $email_from . "</h3>";
 }
