@@ -591,6 +591,11 @@ a:hover {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+
+.listaligned{
+  text-align: right;
+}
+
 .list-social__item {
   display: inline-block;
 }
@@ -625,6 +630,7 @@ a:hover {
 }
 .list-social-2 .list-social__item .ic-google:hover {
   color: #e8ff17;
+
 }
 .list-social--ver .list-social__item {
   display: block;
