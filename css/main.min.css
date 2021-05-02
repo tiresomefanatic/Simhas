@@ -132,6 +132,49 @@ button {
   background: url(../images/bg-pattern-01.jpg) center center/cover no-repeat
     fixed;
 }
+
+
+
+.justbw{
+  animation: bw 6s ease-in-out 1;
+}
+
+@keyframes bw {
+0%  {  filter: grayscale(100%);
+}
+100% {filter: grayscale(10%);
+}
+}
+
+
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(10) infinite alternate, blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+
+
+
+
+
+
 .block-revealer {
   position: absolute;
   top: 0;
