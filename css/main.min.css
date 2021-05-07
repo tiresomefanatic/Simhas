@@ -1449,6 +1449,15 @@ a:hover {
   color: #888;
   display: block;
 }
+
+.ovl{
+background-color: #000;
+opacity: 1;
+position: absolute;
+width: 100vw;
+height: 100vh;
+}
+
 .media-project-2:hover .media__body {
   visibility: visible;
   -webkit-transform: scaleX(1);
